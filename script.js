@@ -20,7 +20,7 @@ const guessChecker = function () {
 
 	// Stating conditions for correct guess and wrong guess
 	if (guess === randomNumber) {
-		feedback.textContent = "Correct Guess";
+		feedback.textContent = "Correct Guess, Press Esc Key to Guess Again.";
 		hiddenNumber.textContent = guess;
 		// Checks if the Score at which user got the guess right is higher or lower that the current highscore. If condition is met, update highscore.
 		if (UserScore > highScore) {
